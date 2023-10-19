@@ -306,6 +306,7 @@ main {
   left: calc(50% - 2px);
 }
 .gh-repository__anchor {
+  width: 125px;
   height: 50px;
   background: #43c4e5;
 }
@@ -379,5 +380,19 @@ main {
   }
   .info::after {
     display: none;
+  }
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project__pillare {
+    display: none;
+  }
+  .project__content {
+    text-align: center;
+    order: 1;
+  }
+  .project__gh-anchors {
+    order: 2;
   }
 }
